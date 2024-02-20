@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://maryam21-JAVA.github.io/aaa/dd/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "dd" ] },
+    "items": [
+      {
+        "id": "https://maryam21-JAVA.github.io/aaa/dd/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 12,
+        "items": [
+          {
+            "id": "https://maryam21-JAVA.github.io/aaa/dd/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://maryam21-JAVA.github.io/aaa/dd/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "60:12",
+                    "duration": 12
+                },
+                "target": "https://maryam21-JAVA.github.io/aaa/dd/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
